@@ -1,5 +1,12 @@
 # DataBase
 
+## 初回クローン時
+
+```
+git clone git@github.com:ITProject2023-Twitter-clone/DataBase.git
+cd DataBase
+```
+
 ## ブランチ命名規則
 
 参考サイト：[git-flow 図解](https://zenn.dev/yuki0410/articles/3360a6078d8e8c)
