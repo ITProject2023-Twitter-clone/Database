@@ -1,10 +1,10 @@
-# DataBase
+# Database
 
 ## 初回クローン時
 
 ```
-git clone git@github.com:ITProject2023-Twitter-clone/DataBase.git
-cd DataBase
+git clone git@github.com:ITProject2023-Twitter-clone/Database.git
+cd Database
 ```
 
 ## ブランチ命名規則
