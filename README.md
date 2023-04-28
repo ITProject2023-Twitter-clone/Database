@@ -19,7 +19,7 @@ docker compose up -d
 docker compose down
 ```
 
-###コンテナ内に入るとき
+### コンテナ内に入るとき
 ```
 docker container -it <container name> bash
 ```
