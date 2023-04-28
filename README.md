@@ -7,6 +7,24 @@ git clone git@github.com:ITProject2023-Twitter-clone/Database.git
 cd Database
 ```
 
+## docker
+
+### コンテナ起動
+```
+docker compose up -d
+```
+
+### コンテナ終了
+```
+docker compose down
+```
+
+### コンテナ内に入るとき
+```
+docker container -it <container name> bash
+```
+
+
 ## ブランチ命名規則
 
 参考サイト：[git-flow 図解](https://zenn.dev/yuki0410/articles/3360a6078d8e8c)
