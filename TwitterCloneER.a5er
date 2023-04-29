@@ -5,20 +5,20 @@
 #  https://a5m2.mmatsubara.com
 
 [Manager]
-ProjectName=TwitterCloneER
+ProjectName=
 Author=
 MaxEntityRowShow=1000
 ReadOnlyRecommend=0
 Page=Main
-PageInfo="Main",2,"A3Landscape",$FFFFFF
+PageInfo="Main",7,"A3Landscape",$FFFFFF
 LogicalView=1
 DecodeDomain=0
 ViewModePageIndividually=1
-ViewMode=2
+ViewMode=7
 ViewFormat=0
 UseNondependenceDashLine=0
 FontName=Tahoma
-FontSize=6
+FontSize=10
 PaperSize=A4Landscape
 HeaderLeft=
 HeaderCenter=
@@ -27,8 +27,6 @@ FooterLeft=
 FooterCenter=
 FooterRight=
 ShowPageoutRelation=1
-RDBMSType=6
-RDBMSTypeName=PostgreSQL
 DefaultPkName=%0:s_PKC
 DefaultPkIndexName=%0:s_PKI
 DefaultIndexName=%0:s_IX%1:d
@@ -39,19 +37,168 @@ ShowTag=1
 ShowCommonAttributes=0
 BugFixEntityWidth=1
 
-[Comment]
-Comment=hogehoge\n
-FontName=Tahoma
-FontBold=0
-FontItalic=0
-FontUnderline=0
-FontSize=9
-FontColor=$000000
-LineColor=$000000
-BkColor=$FFFFFF
+[Entity]
+PName=_prisma_migrations
+LName=_prisma_migrations
+Comment=
+TableOption=
 Page=Main
-Left=363
-Top=131
-ZOrder=2
-Width=769
-Height=261
+Left=150
+Top=850
+Field="id","id","character varying(36)","NOT NULL",0,"","",$FFFFFFFF,""
+Field="checksum","checksum","character varying(64)","NOT NULL",,"","",$FFFFFFFF,""
+Field="finished_at","finished_at","timestamp(6) with time zone",,,"","",$FFFFFFFF,""
+Field="migration_name","migration_name","character varying(255)","NOT NULL",,"","",$FFFFFFFF,""
+Field="logs","logs","text",,,"","",$FFFFFFFF,""
+Field="rolled_back_at","rolled_back_at","timestamp(6) with time zone",,,"","",$FFFFFFFF,""
+Field="started_at","started_at","timestamp(6) with time zone","NOT NULL",,"now()","",$FFFFFFFF,""
+Field="applied_steps_count","applied_steps_count","integer","NOT NULL",,"0","",$FFFFFFFF,""
+EffectMode=None
+Color=$000000
+BkColor=$FFFFFF
+Position="Main",150,850
+ZOrder=-1
+
+[Entity]
+PName=Account
+LName=Account
+Comment=
+TableOption=
+Page=Main
+Left=100
+Top=100
+Field="id","id","text","NOT NULL",0,"","",$FFFFFFFF,""
+Field="userId","userId","text","NOT NULL",,"","",$FFFFFFFF,""
+Field="type","type","text","NOT NULL",,"","",$FFFFFFFF,""
+Field="provider","provider","text","NOT NULL",,"","",$FFFFFFFF,""
+Field="providerAccountId","providerAccountId","text","NOT NULL",,"","",$FFFFFFFF,""
+Field="refresh_token","refresh_token","text",,,"","",$FFFFFFFF,""
+Field="access_token","access_token","text",,,"","",$FFFFFFFF,""
+Field="expires_at","expires_at","integer",,,"","",$FFFFFFFF,""
+Field="token_type","token_type","text",,,"","",$FFFFFFFF,""
+Field="scope","scope","text",,,"","",$FFFFFFFF,""
+Field="id_token","id_token","text",,,"","",$FFFFFFFF,""
+Field="session_state","session_state","text",,,"","",$FFFFFFFF,""
+Index=Account_provider_providerAccountId_key=1,provider,providerAccountId
+EffectMode=None
+Color=$000000
+BkColor=$FFFFFF
+Position="Main",100,100
+ZOrder=-2
+
+[Entity]
+PName=Example
+LName=Example
+Comment=
+TableOption=
+Page=Main
+Left=1450
+Top=800
+Field="id","id","text","NOT NULL",0,"","",$FFFFFFFF,""
+Field="createdAt","createdAt","timestamp(3) without time zone","NOT NULL",,"CURRENT_TIMESTAMP","",$FFFFFFFF,""
+Field="updatedAt","updatedAt","timestamp(3) without time zone","NOT NULL",,"","",$FFFFFFFF,""
+EffectMode=None
+Color=$000000
+BkColor=$FFFFFF
+Position="Main",1450,800
+ZOrder=-3
+
+[Entity]
+PName=Session
+LName=Session
+Comment=
+TableOption=
+Page=Main
+Left=2900
+Top=150
+Field="id","id","text","NOT NULL",0,"","",$FFFFFFFF,""
+Field="sessionToken","sessionToken","text","NOT NULL",,"","",$FFFFFFFF,""
+Field="userId","userId","text","NOT NULL",,"","",$FFFFFFFF,""
+Field="expires","expires","timestamp(3) without time zone","NOT NULL",,"","",$FFFFFFFF,""
+Index=Session_sessionToken_key=1,sessionToken
+EffectMode=None
+Color=$000000
+BkColor=$FFFFFF
+Position="Main",2900,150
+ZOrder=-4
+
+[Entity]
+PName=User
+LName=User
+Comment=
+TableOption=
+Page=Main
+Left=1400
+Top=100
+Field="id","id","text","NOT NULL",0,"","",$FFFFFFFF,""
+Field="name","name","text",,,"","",$FFFFFFFF,""
+Field="email","email","text",,,"","",$FFFFFFFF,""
+Field="emailVerified","emailVerified","timestamp(3) without time zone",,,"","",$FFFFFFFF,""
+Field="image","image","text",,,"","",$FFFFFFFF,""
+Index=User_email_key=1,email
+EffectMode=None
+Color=$000000
+BkColor=$FFFFFF
+Position="Main",1400,100
+ZOrder=-5
+
+[Entity]
+PName=VerificationToken
+LName=VerificationToken
+Comment=
+TableOption=
+Page=Main
+Left=2350
+Top=550
+Field="identifier","identifier","text","NOT NULL",,"","",$FFFFFFFF,""
+Field="token","token","text","NOT NULL",,"","",$FFFFFFFF,""
+Field="expires","expires","timestamp(3) without time zone","NOT NULL",,"","",$FFFFFFFF,""
+Index=VerificationToken_identifier_token_key=1,identifier,token
+Index=VerificationToken_token_key=1,token
+EffectMode=None
+Color=$000000
+BkColor=$FFFFFF
+Position="Main",2350,550
+ZOrder=-6
+
+[Relation]
+Entity1=User
+Entity2=Account
+RelationType1=1
+RelationType2=3
+Fields1=id
+Fields2=userId
+Cardinarity1=
+Cardinarity2=
+Position="MAIN",10,500,9500,504,L,R,""
+Dependence=0
+Caption=
+PName=
+LineMode=10
+Bar1=50
+Bar2=950
+Bar3=50
+TermPos1=L
+TermPos2=R
+ZOrder=-7
+
+[Relation]
+Entity1=User
+Entity2=Session
+RelationType1=1
+RelationType2=3
+Fields1=id
+Fields2=userId
+Cardinarity1=
+Cardinarity2=
+Position="MAIN",10,500,9500,743,R,L,""
+Dependence=0
+Caption=
+PName=
+LineMode=10
+Bar1=50
+Bar2=950
+Bar3=74
+TermPos1=R
+TermPos2=L
+ZOrder=-8
