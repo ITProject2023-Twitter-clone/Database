@@ -24,6 +24,13 @@ docker compose down
 docker container -it <container name> bash
 ```
 
+## Postgresql
+
+### ログイン
+```
+psql -U ユーザ名 -d データベース名
+# パスワード入力
+```
 
 ## ブランチ命名規則
 
