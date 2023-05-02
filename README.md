@@ -21,7 +21,7 @@ docker compose down
 
 ### コンテナ内に入るとき
 ```
-docker container exec -it <container name> bash
+docker container exec -it twitter-clone-db bash
 ```
 
 ## Postgresql
