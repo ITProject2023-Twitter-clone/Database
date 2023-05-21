@@ -367,11 +367,11 @@ Left=2800
 Top=1750
 Field="ユーザーID","user_id","text","NOT NULL",0,"","",$0079009A,""
 Field="ツイートID","tweet_id","text","NOT NULL",1,"","",$0079009A,""
-Field="投稿日時","posted_at","TIMESTAMPZ","NOT NULL",,"","",$FFFFFFFF,""
+Field="作成日時","created_at","TIMESTAMPZ","NOT NULL",,"","",$FFFFFFFF,""
 EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
-ModifiedDateTime=20230519214358
+ModifiedDateTime=20230521205922
 Position="MAIN",2800,1750
 ZOrder=22
 
