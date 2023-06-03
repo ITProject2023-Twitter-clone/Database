@@ -57,7 +57,7 @@ EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
 ModifiedDateTime=20230430003152
-Position="MAIN",3900,650
+Position="MAIN",3900,650,1131,339
 ZOrder=-1
 
 [Entity]
@@ -85,7 +85,7 @@ EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
 ModifiedDateTime=20230430002956
-Position="MAIN",50,50
+Position="MAIN",50,50,829,508
 ZOrder=-2
 
 [Entity]
@@ -105,7 +105,7 @@ EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
 ModifiedDateTime=20230430003029
-Position="MAIN",3900,50
+Position="MAIN",3900,50,990,169
 ZOrder=-4
 
 [Entity]
@@ -128,7 +128,7 @@ EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
 ModifiedDateTime=20230517184146
-Position="MAIN",1550,1200
+Position="MAIN",1550,1200,986,296
 ZOrder=-5
 
 [Entity]
@@ -147,7 +147,7 @@ Index=verification_tokens_token_key=1,token
 EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
-Position="MAIN",3900,350
+Position="MAIN",3900,350,834,127
 ZOrder=-6
 
 [Relation]
@@ -209,7 +209,7 @@ EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
 ModifiedDateTime=20230521204820
-Position="MAIN",50,700
+Position="MAIN",50,700,876,212
 ZOrder=1
 
 [Entity]
@@ -234,7 +234,7 @@ EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
 ModifiedDateTime=20230521201456
-Position="MAIN",1550,1750
+Position="MAIN",1550,1750,926,423
 ZOrder=2
 
 [Entity]
@@ -252,7 +252,7 @@ EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
 ModifiedDateTime=20230517184340
-Position="MAIN",50,1200
+Position="MAIN",50,1200,747,127
 ZOrder=3
 
 [Entity]
@@ -270,7 +270,7 @@ EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
 ModifiedDateTime=20230517184359
-Position="MAIN",50,1400
+Position="MAIN",50,1400,716,127
 ZOrder=4
 
 [Relation]
@@ -310,7 +310,7 @@ EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
 ModifiedDateTime=20230519214449
-Position="MAIN",650,1750
+Position="MAIN",650,1750,604,127
 ZOrder=11
 
 [Relation]
@@ -372,7 +372,7 @@ EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
 ModifiedDateTime=20230521205922
-Position="MAIN",2800,1750
+Position="MAIN",2800,1750,612,127
 ZOrder=22
 
 [Relation]
@@ -467,7 +467,7 @@ Fields1=user_id
 Fields2=user_id
 Cardinarity1=
 Cardinarity2=
-Position="MAIN",9,3612,6440,8428,R,R,""
+Position="MAIN",9,3612,6440,8419,R,R,""
 Dependence=0
 Caption=
 PName=
@@ -475,7 +475,7 @@ ModifiedDateTime=20230511193624
 LineMode=9
 Bar1=361
 Bar2=644
-Bar3=843
+Bar3=842
 TermPos1=R
 TermPos2=R
 ZOrder=46
@@ -511,7 +511,7 @@ Fields1=user_id
 Fields2=user_id
 Cardinarity1=
 Cardinarity2=
-Position="MAIN",9,10000,8925,7585,R,R,""
+Position="MAIN",9,10000,8925,7559,R,R,""
 Dependence=0
 Caption=
 PName=
@@ -519,7 +519,7 @@ ModifiedDateTime=20230511194210
 LineMode=9
 Bar1=1000
 Bar2=892
-Bar3=758
+Bar3=756
 TermPos1=R
 TermPos2=R
 ZOrder=49
@@ -560,7 +560,7 @@ EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
 ModifiedDateTime=20230512203453
-Position="MAIN",1900,50
+Position="MAIN",1900,50,570,85
 ZOrder=51
 
 [Relation]
@@ -599,7 +599,7 @@ EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
 ModifiedDateTime=20230512210721
-Position="MAIN",1900,250
+Position="MAIN",1900,250,575,85
 ZOrder=54
 
 [Relation]
@@ -638,7 +638,7 @@ EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
 ModifiedDateTime=20230517184526
-Position="MAIN",1900,450
+Position="MAIN",1900,450,619,85
 ZOrder=56
 
 [Relation]
@@ -678,7 +678,7 @@ EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
 ModifiedDateTime=20230521180248
-Position="MAIN",650,2000
+Position="MAIN",650,2000,557,127
 ZOrder=61
 
 [Entity]
@@ -697,7 +697,7 @@ EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
 ModifiedDateTime=20230521205147
-Position="MAIN",2800,1250
+Position="MAIN",2800,1250,612,169
 ZOrder=63
 
 [Relation]
@@ -736,7 +736,7 @@ EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
 ModifiedDateTime=20230519150541
-Position="MAIN",650,2250
+Position="MAIN",650,2250,738,85
 ZOrder=78
 
 [Relation]
@@ -775,7 +775,7 @@ EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
 ModifiedDateTime=20230519151048
-Position="MAIN",1550,2450
+Position="MAIN",1550,2450,488,85
 ZOrder=80
 
 [Relation]
@@ -787,7 +787,7 @@ Fields1=tweet_id
 Fields2=ancestor
 Cardinarity1=
 Cardinarity2=
-Position="MAIN",8,405,3567,768,R,R,""
+Position="MAIN",8,405,3567,769,R,R,""
 Dependence=1
 Caption=
 PName=
@@ -851,7 +851,7 @@ EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
 ModifiedDateTime=20230521160501
-Position="MAIN",2800,2050
+Position="MAIN",2800,2050,704,85
 ZOrder=85
 
 [Relation]
@@ -913,7 +913,7 @@ EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
 ModifiedDateTime=20230521180448
-Position="MAIN",3600,1250
+Position="MAIN",3600,1250,663,127
 ZOrder=89
 
 [Comment]
@@ -977,7 +977,7 @@ PName=social_accounts
 LName=ソーシャルアカウント
 Comment=
 TableOption=
-Page=Main
+Page=MAIN
 Left=950
 Top=900
 Field="ユーザーID","user_id","text","NOT NULL",0,"","",$0079009A,""
@@ -989,7 +989,7 @@ EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
 ModifiedDateTime=20230521204320
-Position="Main",950,900
+Position="MAIN",950,900,547,212
 ZOrder=94
 
 [Relation]
@@ -1034,3 +1034,98 @@ Bar3=412
 TermPos1=R
 TermPos2=R
 ZOrder=97
+
+[Comment]
+Comment=display_name\ndefalut("")\nnot null\n
+FontName=Tahoma
+FontBold=0
+FontItalic=0
+FontUnderline=0
+FontSize=9
+FontColor=$000000
+LineColor=$000000
+BkColor=$FFFFFF
+Page=Main
+Left=2027
+Top=989
+ZOrder=98
+Width=300
+Height=156
+
+[Entity]
+PName=tags
+LName=タグ
+Comment=
+TableOption=
+Page=MAIN
+Left=2800
+Top=2450
+Field="タグID","tag_id","cuid","NOT NULL",0,"","",$000028FF,""
+Field="タグ","tag","varchar(50)","NOT NULL",,"","",$FFFFFFFF,""
+EffectMode=None
+Color=$000000
+BkColor=$FFFFFF
+ModifiedDateTime=20230604012241
+Position="MAIN",2800,2450,454,85
+ZOrder=99
+
+[Entity]
+PName=tweet_tag
+LName=tweet_tag
+Comment=
+TableOption=
+Page=MAIN
+Left=2100
+Top=2450
+Field="ツイートID","tweet_id","uuid","NOT NULL",0,"","",$0079009A,""
+Field="タグID","tag_id","cuid","NOT NULL",1,"","",$0079009A,""
+EffectMode=None
+Color=$000000
+BkColor=$FFFFFF
+ModifiedDateTime=20230604012306
+Position="MAIN",2100,2450
+ZOrder=100
+
+[Relation]
+Entity1=tweets
+Entity2=tweet_tag
+RelationType1=2
+RelationType2=3
+Fields1=tweet_id
+Fields2=tweet_id
+Cardinarity1=
+Cardinarity2=
+Position="MAIN",8,7396,2604,2541,R,R,""
+Dependence=1
+Caption=
+PName=
+ModifiedDateTime=20230604012915
+LineMode=8
+Bar1=740
+Bar2=260
+Bar3=254
+TermPos1=R
+TermPos2=R
+ZOrder=101
+
+[Relation]
+Entity1=tags
+Entity2=tweet_tag
+RelationType1=2
+RelationType2=3
+Fields1=tag_id
+Fields2=tag_id
+Cardinarity1=
+Cardinarity2=
+Position="MAIN",0,7850,2150,7881,R,R,""
+Dependence=1
+Caption=
+PName=
+ModifiedDateTime=20230604012329
+LineMode=0
+Bar1=785
+Bar2=215
+Bar3=788
+TermPos1=R
+TermPos2=R
+ZOrder=103
